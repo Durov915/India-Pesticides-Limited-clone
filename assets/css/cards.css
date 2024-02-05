@@ -1,0 +1,111 @@
+.Businessbackground {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    /* width: 100%; */
+    /* height: 100%; */
+    left: 0;
+    /* filter: blur(4px); */
+    /* opacity: 0.5; */
+    filter: brightness(0.5);
+}
+
+.Businessheading {
+    color: var(--global--color-heading);
+    font-size: 28px;
+    z-index: 2;
+    padding: 0px 0px 15px 0px;
+}
+
+.services .service-panel .service-icon {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .services.services-4 .needhover:hover{
+      border: 2px solid var(--global--color-primary);
+    } */
+
+/* .services .service-panel:hover .service-icon{
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translate(-50%, -110%);
+    } */
+
+.services .service-panel .service-content .btn {
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.services.services-4 .service-panel {
+    /* width: 100%; */
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.services.services-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 70px;
+}
+
+.businessimg {
+    border: none;
+}
+
+.services .service-panel {
+    position: relative;
+    /* padding: 66px 40px 85px; */
+    padding: 66px 40px 55px;
+}
+
+.bg-overlay-theme2:before {
+    background-image: linear-gradient( 180deg, #0d1207db 50%, #1c280ff0 100%) !important;
+}
+
+/* .owl-carousel .owl-item img {
+  
+  height: 100px;
+  margin-bottom: 20px;
+  width: auto;
+} */
+
+.feature-icon img {
+    height: 100px;
+    width: auto;
+}
+
+.features .feature-panel-holder .feature-panel {
+    position: relative;
+    padding: 39px 35px 0px;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .services .service-panel {
+        position: relative;
+        padding: 30px 40px 50px;
+    }
+    .Businessicons img {
+        width: auto;
+        margin-top: 25px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .Businessicons img {
+        height: 125px;
+        width: auto;
+        margin-bottom: 25px;
+    }
+    .services .service-panel .service-content {
+        align-items: stretch;
+    }
+    .needmarginbottom {
+        margin-bottom: 50px;
+    }
+}
